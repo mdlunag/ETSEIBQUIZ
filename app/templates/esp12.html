@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Pregunta 12</title>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<head>
+
+
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+  <center>
+  <br>
+  <br>
+<h1>PREGUNTA 12</h1>
+</center>
+</head>
+
+<body>
+<center>
+
+
+
+</center>
+
+<center>
+  <p>
+    <form action="/pe12" method="post">
+      Els alumnes de la província de
+      <select name="pr1">
+      <option value="Barcelona">Barcelona</option>
+      <option value="Lleida">Lleida</option>
+      <option value="Girona">Girona</option>
+      <option value="Tarragona">Tarragona</option>
+          </select>
+ aproven més que els de la província de
+            <select name="pr2">
+              <option value="Barcelona">Barcelona</option>
+              <option value="Lleida">Lleida</option>
+              <option value="Girona">Girona</option>
+              <option value="Tarragona">Tarragona</option>
+            </select>
+           <br><br>
+           <button type="submit" value="Enviar"><img src="static/enviar.png" border=0></button>
+          </form>
+        </p>
+      </center>
+
+          <p>
+            <form action="/esc">
+            <button type="submit" style="float:left; margin-left:20px ;margin-top:260px;"><img src="static/sortir.png" border=0></button>
+            </form>
+          </p>
+
+</body>
+</html>

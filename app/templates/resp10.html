@@ -1,0 +1,78 @@
+<html>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<title>Resposta 10</title>
+<head>
+<meta charset="utf-8" >
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+</head>
+
+<body>
+<center>
+<br>
+<br>
+<br>
+<h1 style='color:{{f}}'>{{s}}</h1>
+<resp> La proporció d'aprovats del grup {{g1}} és del {{dades1}}%, mentre que el del grup {{g2}} és del {{dades2}}%</resp>
+</center>
+<br>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+
+<div id="container" style="height: 400px; min-width: 310px"></div>
+<script>
+Highcharts.chart('container', {
+
+    title: {
+        text: "Evolució temporal de la proporció d'aprovats"
+
+      },
+  subtitle: {
+      text: "Els valors situats a 0 indiquen que, en l'any indicat, no existia el grup corresponent.",
+      align: 'right',
+      x: -65,
+      verticalAlign: 'bottom',
+      y: -30
+      },
+
+
+    yAxis: {
+        title: {
+            text: "Proporció d'aprovats"
+        }
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            pointStart: 2010
+        }
+    },
+
+    series: [{
+        name: '{{g1}}',
+        data: {{llista1}}
+      }, {
+      name: '{{g2}}',
+      data: {{llista2}}
+    }]
+
+});
+    </script>
+  <center>
+
+      <p>
+      <form action={{boton}}>
+      <button type="submit" style="float:left; margin-left:20px;"><img src="static/sortir.png" border=0></button>
+      </form>
+      <form action={{boton2}}>
+      <button type="submit" style="float:right; margin-right:20px;"><img src="static/seguent.png" border=0></button>
+      </form>
+      </p>
+      </body>
+      </html>

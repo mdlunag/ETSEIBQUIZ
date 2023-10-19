@@ -1,0 +1,12 @@
+import random
+def ran():
+    in11=random.randint(0,10)
+    in12=random.randint(0,10)
+    in21=random.randint(0,10)
+    in22=random.randint(0,10)
+    while in12 < in11:
+        in12=random.randint(0,10)
+    while in21>in12 and in21<in11: 
+        in21 = random.randint(0,10)
+    while (in22 < in21) or (in22>in12 and in22<in11):
+        in22=random.randint(0,10)

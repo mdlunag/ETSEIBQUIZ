@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>Pregunta 1</title>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='divi.css')}}"/>
+<head>
+
+
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+  <center>
+  <br>
+  <br>
+<h1>PREGUNTA 1/12</h1>
+</center>
+</head>
+
+<body>
+<center>
+
+{% if in11 == in12 %}
+<p> Hi ha més notes de {{in11}} que de {{in21}}</p>
+{% else %}
+<p> Hi ha més notes entre {{in11}} i {{in12}} que entre {{in21}} i {{in22}}</p>
+{% endif %}
+</center>
+
+<center>
+  <p>
+
+
+
+<form action="/p1" method="post">
+<button type="submit" name="bolea" value="True" style='border:none; background-color:#ffffff'><img src="static/si2.png" border=0></button>
+
+ &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<button type="submit" name="bolea" value="False" style='border:none; background-color:#ffffff' ><img src="static/no2.png" border=0></button>
+</center>
+</form>
+<br>
+<p>
+  <form action="/index">
+    <button type="submit"><img src="static/sortir.png" border=0></button>
+  </form>
+</p>
+
+
+</body>
+</html>

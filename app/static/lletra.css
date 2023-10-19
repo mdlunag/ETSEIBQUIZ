@@ -1,0 +1,26 @@
+@font-face{
+font-family: Berlin Sans FB Demi;
+
+src: url('Berlin Sans FB Demi Bold.ttf');
+}
+
+sub2{font-family: Berlin Sans FB Demi; color: black; font-size: 20px}
+sub{font-family: Berlin Sans FB Demi; color: #0073ba; font-size: 30px}
+resp {font-family: Berlin Sans FB Demi; color: black; font-size: 20px}
+body {font-family: Berlin Sans FB Demi; color: black; font-size: 25px}
+h1 {font-family:Berlin Sans FB Demi; color: #447a91; font-size: 38px}
+
+@font-face{
+
+font-family: Berlin Sans FB;
+src: url('Berlin Sans FB Regular.ttf')
+}
+sub3{font-family: Berlin Sans FB; color:black; font-size: 17px}
+
+
+.mi{
+    position:absolute;
+    bottom:17px;
+    width: 98.5%;
+
+  }

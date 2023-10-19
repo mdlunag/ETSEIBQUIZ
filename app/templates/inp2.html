@@ -1,0 +1,45 @@
+<html>
+<title>Pregunta 2</title>
+
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<head>
+
+
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+  <center>
+  <br>
+  <br>
+<h1>PREGUNTA 2/12</h1>
+</center>
+</head>
+
+<body>
+<center>
+<p> L'assignatura obligatòria més {{apr}} en percentatge {{f}} és {{materia}}</p>
+</center>
+
+<center>
+  <p>
+
+
+
+<form action="/p2" method="post">
+
+  <button type="submit" name="bolea" value="True" style='border:none; background-color:#ffffff'><img src="static/si2.png" border=0></button>
+
+   &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+  <button type="submit" name="bolea" value="False" style='border:none; background-color:#ffffff' ><img src="static/no2.png" border=0></button>
+  </center>
+  </form>
+  <br>
+  <p>
+    <form action="/index">
+      <button type="submit"><img src="static/sortir.png" border=0></button>
+    </form>
+  </p>
+
+
+  </body>
+  </html>

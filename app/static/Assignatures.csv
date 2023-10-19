@@ -1,0 +1,239 @@
+CODASS,NOM,QUATRI
+240011,Àlgebra Lineal,Q1
+240012,Càlcul I,Q1
+240013,Mecànica Fonamental,Q1
+240014,Química I,Q1
+240015,Fonaments Informàtica,Q1
+240021,Geometria,Q2
+240022,Càlcul II,Q2
+240023,Termodinàmica Fonamental,Q2
+240024,Química II,Q2
+240025,Expressió Gràfica,Q2
+240031,Electromagnetisme,Q3
+240131,Equacions Diferencials,Q3
+240132,Informàtica,Q3
+240032,Mètodes Numèrics,Q3
+240033,Materials,Q3
+240133,Mecànica,Q3
+240041,Economia i Empresa,Q4
+240042,Estadística,Q4
+240043,Dinàmica de Sistemes,Q4
+240141,Teoria de Màquines i Mecanismes,Q4
+240044,PROJECTE I,Q4
+240051,Tecnologia del Medi Ambient i Sostenibilitat,Q5
+240052,Termodinàmica,Q5
+240053,Electrotècnia,Q5
+240054,Mecànica dels Medis Continus,Q5
+240151,Tecnologia i Selecció de Materials,Q5
+240055,Tècniques Estadístiques per la Qualitat,Q5
+240061,Mecànica de Fluids,Q6
+240062,Organització i Gestió,Q6
+240063,Resistència de Materials,Q6
+240161,Màquines Elèctriques,Q6
+240162,Simulació i Optimització,Q6
+240064,PROJECTE II,Q6
+240071,Gestió de Projectes,Q7
+240072,Electrònica,Q7
+240073,Sistemes de Fabricació,Q7
+240171,Termotècnia,Q7
+240172,Control Automàtic,Q7
+240400,Optativa,Optativa
+240401,Optativa,Optativa
+240402,Optativa,Optativa
+240403,Optativa,Optativa
+240404,Optativa,Optativa
+240405,Optativa,Optativa
+240406,Optativa,Optativa
+240407,Optativa,Optativa
+240408,Optativa,Optativa
+240409,Optativa,Optativa
+240410,Optativa,Optativa
+240411,Optativa,Optativa
+240412,Optativa,Optativa
+240413,Optativa,Optativa
+240414,Optativa,Optativa
+240415,Optativa,Optativa
+240416,Optativa,Optativa
+240417,Optativa,Optativa
+240418,Optativa,Optativa
+240419,Optativa,Optativa
+240420,Optativa,Optativa
+240421,Optativa,Optativa
+240422,Optativa,Optativa
+240423,Optativa,Optativa
+240424,Optativa,Optativa
+240425,Optativa,Optativa
+240426,Optativa,Optativa
+240427,Optativa,Optativa
+240428,Optativa,Optativa
+240429,Optativa,Optativa
+240430,Optativa,Optativa
+240431,Optativa,Optativa
+240432,Optativa,Optativa
+240433,Optativa,Optativa
+240434,Optativa,Optativa
+240435,Optativa,Optativa
+240436,Optativa,Optativa
+240437,Optativa,Optativa
+240438,Optativa,Optativa
+240439,Optativa,Optativa
+240440,Optativa,Optativa
+240441,Optativa,Optativa
+240442,Optativa,Optativa
+240443,Optativa,Optativa
+240444,Optativa,Optativa
+240445,Optativa,Optativa
+240446,Optativa,Optativa
+240447,Optativa,Optativa
+240448,Optativa,Optativa
+240449,Optativa,Optativa
+240450,Optativa,Optativa
+240451,Optativa,Optativa
+240452,Optativa,Optativa
+240453,Optativa,Optativa
+240454,Optativa,Optativa
+240455,Optativa,Optativa
+240456,Optativa,Optativa
+240457,Optativa,Optativa
+240458,Optativa,Optativa
+240459,Optativa,Optativa
+240460,Optativa,Optativa
+240461,Optativa,Optativa
+240462,Optativa,Optativa
+240463,Optativa,Optativa
+240464,Optativa,Optativa
+240465,Optativa,Optativa
+240466,Optativa,Optativa
+240467,Optativa,Optativa
+240468,Optativa,Optativa
+240469,Optativa,Optativa
+240470,Optativa,Optativa
+240471,Optativa,Optativa
+240472,Optativa,Optativa
+240473,Optativa,Optativa
+240474,Optativa,Optativa
+240475,Optativa,Optativa
+240476,Optativa,Optativa
+240477,Optativa,Optativa
+240478,Optativa,Optativa
+240479,Optativa,Optativa
+240480,Optativa,Optativa
+240481,Optativa,Optativa
+240482,Optativa,Optativa
+240483,Optativa,Optativa
+240484,Optativa,Optativa
+240485,Optativa,Optativa
+240486,Optativa,Optativa
+240487,Optativa,Optativa
+240488,Optativa,Optativa
+240489,Optativa,Optativa
+240490,Optativa,Optativa
+240491,Optativa,Optativa
+240492,Optativa,Optativa
+240493,Optativa,Optativa
+240494,Optativa,Optativa
+240495,Optativa,Optativa
+240496,Optativa,Optativa
+240497,Optativa,Optativa
+240498,Optativa,Optativa
+240499,Optativa,Optativa
+240500,Optativa,Optativa
+240501,Optativa,Optativa
+240502,Optativa,Optativa
+240503,Optativa,Optativa
+240504,Optativa,Optativa
+240505,Optativa,Optativa
+240506,Optativa,Optativa
+240507,Optativa,Optativa
+240508,Optativa,Optativa
+240509,Optativa,Optativa
+240510,Optativa,Optativa
+240511,Optativa,Optativa
+240512,Optativa,Optativa
+240513,Optativa,Optativa
+240514,Optativa,Optativa
+240515,Optativa,Optativa
+240516,Optativa,Optativa
+240517,Optativa,Optativa
+240518,Optativa,Optativa
+240519,Optativa,Optativa
+240520,Optativa,Optativa
+240521,Optativa,Optativa
+240522,Optativa,Optativa
+240523,Optativa,Optativa
+240524,Optativa,Optativa
+240525,Optativa,Optativa
+240526,Optativa,Optativa
+240527,Optativa,Optativa
+240528,Optativa,Optativa
+240529,Optativa,Optativa
+240530,Optativa,Optativa
+240531,Optativa,Optativa
+240532,Optativa,Optativa
+240533,Optativa,Optativa
+240534,Optativa,Optativa
+240535,Optativa,Optativa
+240536,Optativa,Optativa
+240537,Optativa,Optativa
+240538,Optativa,Optativa
+240539,Optativa,Optativa
+240540,Optativa,Optativa
+240541,Optativa,Optativa
+240542,Optativa,Optativa
+240543,Optativa,Optativa
+240544,Optativa,Optativa
+240545,Optativa,Optativa
+240546,Optativa,Optativa
+240547,Optativa,Optativa
+240548,Optativa,Optativa
+240549,Optativa,Optativa
+240550,Optativa,Optativa
+240551,Optativa,Optativa
+240552,Optativa,Optativa
+240553,Optativa,Optativa
+240554,Optativa,Optativa
+240555,Optativa,Optativa
+240556,Optativa,Optativa
+240557,Optativa,Optativa
+240558,Optativa,Optativa
+240559,Optativa,Optativa
+240560,Optativa,Optativa
+240561,Optativa,Optativa
+240562,Optativa,Optativa
+240563,Optativa,Optativa
+240564,Optativa,Optativa
+240565,Optativa,Optativa
+240566,Optativa,Optativa
+240567,Optativa,Optativa
+240568,Optativa,Optativa
+240569,Optativa,Optativa
+240570,Optativa,Optativa
+240571,Optativa,Optativa
+240572,Optativa,Optativa
+240573,Optativa,Optativa
+240574,Optativa,Optativa
+240575,Optativa,Optativa
+240576,Optativa,Optativa
+240577,Optativa,Optativa
+240578,Optativa,Optativa
+240579,Optativa,Optativa
+240580,Optativa,Optativa
+240581,Optativa,Optativa
+240582,Optativa,Optativa
+240583,Optativa,Optativa
+240584,Optativa,Optativa
+240585,Optativa,Optativa
+240586,Optativa,Optativa
+240587,Optativa,Optativa
+240588,Optativa,Optativa
+240589,Optativa,Optativa
+240590,Optativa,Optativa
+240591,Optativa,Optativa
+240592,Optativa,Optativa
+240593,Optativa,Optativa
+240594,Optativa,Optativa
+240595,Optativa,Optativa
+240596,Optativa,Optativa
+240597,Optativa,Optativa
+240598,Optativa,Optativa
+240599,Optativa,Optativa

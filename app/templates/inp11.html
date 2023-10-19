@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Pregunta 11</title>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<head>
+
+
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+  <center>
+  <br>
+  <br>
+<h1>PREGUNTA 11/12</h1>
+</center>
+</head>
+
+<body>
+<center>
+
+
+
+
+<p> Hi ha més gent de "{{mun1}}" que de "{{mun2}}". </p>
+</center>
+
+<center>
+  <p>
+
+<br>
+
+<form action="/p11" method="post">
+  <button type="submit" name="bolea" value="True" style='border:none; background-color:#ffffff'><img src="static/si2.png" border=0></button>
+
+
+&nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<button type="submit" name="bolea" value="False" style='border:none; background-color:#ffffff' ><img src="static/no2.png" border=0></button>
+</center>
+</form>
+<br>
+<p>
+ <form action="/index">
+   <button type="submit"><img src="static/sortir.png" border=0></button>
+ </form>
+</p>
+
+
+</body>
+</html>

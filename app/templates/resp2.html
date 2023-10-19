@@ -1,0 +1,81 @@
+<html>
+<link type="text/css" rel="stylesheet" href="{{url_for('static', filename='lletra.css')}}"/>
+<title>Resposta 2</title>
+
+<head>
+<meta charset="utf-8" >
+<BR LEFT>
+<IMG SRC="static/minilogo.png" style="position: absolute; top: 0; left: 0;" />
+</head>
+
+<body>
+<center>
+<br>
+<br>
+<h1 style='color:{{f}}'>{{s}}</h1>
+<resp> L'assignatura obligatòria més {{apr1}} en percentatge {{frase2}} és {{materiabo}} amb un {{perce}}%</resp>
+</center>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+<br>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<script>
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: '{{title}}'
+    },
+
+    xAxis: {
+        categories: {{ assign|safe }}
+
+    },
+    yAxis: {
+        title: {
+            text: 'Percentatge matèries {{ap}}'
+        }
+
+    },
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y:.1f}%'
+            }
+        }
+    },
+
+    tooltip: {
+        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+    },
+
+    series: [{  {{ dataseries|safe }},
+        colorByPoint: true,
+
+    }],
+
+});
+
+</script>
+
+<p>
+<form action={{boton}}>
+<button type="submit" style="float:left; margin-left:20px;"><img src="static/sortir.png" border=0></button>
+</form>
+<form action={{boton2}}>
+<button type="submit" style="float:right; margin-right:20px;"><img src="static/seguent.png" border=0></button>
+</form>
+</p>
+</body>
+</html>
